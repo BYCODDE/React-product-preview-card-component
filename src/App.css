@@ -7,7 +7,27 @@ body {
   align-items: center;
   min-height: 100vh;
   background: var(--cream-bg, #f2eae2);
-
   font-family: "Montserrat", sans-serif !important;
   font-feature-settings: "clig" off, "liga" off !important;
+}
+@media screen and (max-width: 768px) {
+  main {
+    background: var(--cream-bg, #f2eae2) !important;
+    flex-direction: column;
+    padding: 28px 16px;
+  }
+
+  .section_left {
+    display: flex !important;
+    width: 100% !important;
+    border-radius: 10px 10px 0 0 !important;
+    background-image: url(/public/images/image-product-desktop.jpg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 276px;
+  }
+  .section_right {
+    background: var(--Pure-White, #fff);
+    border-radius: 10px;
+  }
 }
