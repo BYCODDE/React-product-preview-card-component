@@ -30,4 +30,7 @@ body {
     background: var(--Pure-White, #fff);
     border-radius: 10px;
   }
+  .text_div h3 {
+    width: 295px !important;
+  }
 }
