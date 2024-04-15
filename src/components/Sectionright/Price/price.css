@@ -1,0 +1,25 @@
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+  margin-top: 29px;
+  padding-right: 43px;
+  margin-bottom: 30px;
+}
+
+.price h4 {
+  color: var(--Deep-Aquamarine, #3d8168);
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.price span {
+  color: var(--Aurometal-Saurus, #6c7289);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: line-through;
+}

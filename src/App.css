@@ -7,7 +7,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: var(--cream-bg, #f2eae2);
-  /* padding: 175px 420px; */
-  font-family: "Montserrat", sans-serif;
-  font-feature-settings: "clig" off, "liga" off;
+
+  font-family: "Montserrat", sans-serif !important;
+  font-feature-settings: "clig" off, "liga" off !important;
 }

@@ -1,12 +1,7 @@
-/* img {
-  max-width: 50%;
-  border-radius: 10px 0 0 10px;
- 
-} */
 .section_left {
   display: flex;
   width: 337.694px;
-  height: 450px;
+  border-radius: 10px 0 0 10px;
   background-image: url("/public/images/image-product-desktop.jpg");
   background-size: cover;
   background-position: center;
