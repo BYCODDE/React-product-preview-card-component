@@ -1,0 +1,21 @@
+.text_div {
+}
+
+.text_div h3 {
+  width: 236px;
+  color: var(--Gunmetal, #1c232b);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  font-family: "Fraunces", serif;
+}
+
+.text_div p {
+  color: var(--Aurometal-Saurus, #6c7289);
+  width: 237px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
